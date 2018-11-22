@@ -1,0 +1,74 @@
+{
+    "movies": {
+        "1": "Toy Story (1995)",
+        "2": "GoldenEye (1995)",
+        "3": "Twelve Monkeys (1995)",
+        "4": "Richard III (1995)",
+        "5": "Seven (Se7en) (1995)",
+        "6": "Usual Suspects, The (1995)",
+        "7": "Postino, Il (1994)",
+        "8": "From Dusk Till Dawn (1996)",
+        "9": "Braveheart (1995)",
+        "10": "Taxi Driver (1976)",
+        "11": "Bad Boys (1995)"
+    },
+    "users": [
+        {
+            "movies": [
+                1,
+                2
+            ],
+            "user_id": 1
+        },
+        {
+            "movies": [
+                1,
+                4,
+                5
+            ],
+            "user_id": 2
+        },
+        {
+            "movies": [
+                3,
+                6,
+                9
+            ],
+            "user_id": 3
+        },
+        {
+            "movies": [
+                2,
+                4
+            ],
+            "user_id": 4
+        },
+        {
+            "movies": [
+                5,
+                8,
+                7,
+                11
+            ],
+            "user_id": 5
+        },
+        {
+            "movies": [
+                2,
+                3,
+                6
+            ],
+            "user_id": 6
+        },
+        {
+            "movies": [
+                7,
+                11,
+                8,
+                5,
+                2
+            ],
+            "user_id": 7
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{{}
+    "movies": {
+        "1": "Toy Story (1995)",
+        "2": "GoldenEye (1995)",
+        "3": "Twelve Monkeys (1995)",
+        "4": "Richard III (1995)",
+        "5": "Seven (Se7en) (1995)"
+    },
+    "users": [
+        {
+            "movies": [
+                1,
+                2
+            ],
+            "user_id": 1
+        },
+        {
+            "movies": [
+                1,
+                4,
+                5
+            ],
+            "user_id": 2
+        }
+    ]
+}

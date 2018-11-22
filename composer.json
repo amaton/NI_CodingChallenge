@@ -1,0 +1,22 @@
+{
+  "name": "ni/ni_coding-challange",
+  "description": "MovieAdviser engine based on presented preferences json data as coding challenge for Native Instruments",
+  "type": "engine",
+  "license": "GNU",
+  "authors": [
+    {
+      "name": "Anton Amatuni",
+      "email": "amatonn@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "NI\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.6",
+    "phpunit/phpunit": "5.*"
+  }
+}
